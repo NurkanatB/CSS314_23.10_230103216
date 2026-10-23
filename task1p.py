@@ -112,10 +112,10 @@ def main():
 
         print("\n" + "\n".join(output))
 
-        with open("task1_output.txt", "w", encoding="utf-8") as file:
+        with open("task1p_output.txt", "w", encoding="utf-8") as file:
             file.write("\n".join(output) + "\n")
 
-        print("\nResults saved to task1_output.txt")
+        print("\nResults saved to task1p_output.txt")
 
     finally:
         shm.close()
