@@ -1,0 +1,15 @@
+C:\Users\user\PycharmProjects\PythonProject\.venv\Scripts\python.exe C:\Users\user\PycharmProjects\PythonProject\task4.py 
+Student ID: 230103216
+Items: 1000
+Workers: 4
+Workload: sleep(0.0001 * (i % 20))
+
+Strategy                    Total Time (s)    Completion Delta (s)
+------------------------------------------------------------------
+A: Static                           0.3211                  0.0101
+B: Dynamic (chunk=1)                0.3143                  0.0015
+B: Dynamic (chunk=5)                0.3230                  0.0082
+
+Completion delta = last worker finish - first worker finish
+
+Process finished with exit code 0
