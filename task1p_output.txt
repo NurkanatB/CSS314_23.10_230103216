@@ -1,0 +1,22 @@
+C:\Users\user\PycharmProjects\PythonProject\.venv\Scripts\python.exe C:\Users\user\PycharmProjects\PythonProject\task1p.py 
+Student ID: 230103216
+Logical cores: 12
+Physical cores: 6
+Parallel workers: 6
+Matrix size: 8000 x 8000
+
+Student ID: 230103216
+Logical cores: 12
+Physical cores: 6
+Parallel workers: 6
+Matrix size: 8000 x 8000
+Mode A (Row-Major) runtime: 1071.61 ms
+Mode B (Column-Major / Strided) runtime: 721.32 ms
+Cache penalty factor: 0.6731
+Mode A sum: 32002585.6663579233
+Mode B sum: 32002585.6663579121
+Sum difference: 0.0000000112
+
+Results saved to task1_output.txt
+
+Process finished with exit code 0
