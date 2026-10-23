@@ -1,0 +1,31 @@
+C:\Users\user\PycharmProjects\PythonProject\.venv\Scripts\python.exe C:\Users\user\PycharmProjects\PythonProject\task7.py 
+Student ID: 230103216
+Operating System: Windows-10-10.0.19045-SP0
+CPU Model: AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD
+Logical CPU cores: 12
+Array elements: 30,000,000
+Data type: float64
+Approximate size per array: 240 MB
+Worker counts: [1, 2, 12]
+
+=== Kernel A: B[i] = A[i] ===
+   Cores |  Wall Time (s) |    Speedup |   Efficiency
+-------------------------------------------------------
+       1 |         0.0709 |     1.000x |      100.00%
+       2 |         0.0299 |     2.369x |      118.44%
+      12 |         0.0280 |     2.530x |       21.08%
+
+=== Kernel B: sin(A[i]) * cos(A[i]) + tan(A[i]) ===
+   Cores |  Wall Time (s) |    Speedup |   Efficiency
+-------------------------------------------------------
+       1 |         2.5681 |     1.000x |      100.00%
+       2 |         1.0562 |     2.432x |      121.58%
+      12 |         0.5545 |     4.631x |       38.59%
+
+=== SCALING ANALYSIS ===
+Memory-bound copy shows poor scaling at the maximum worker count, consistent with possible memory-bandwidth saturation.
+Copy kernel efficiency at 12 workers: 21.08%
+Compute kernel efficiency at 12 workers: 38.59%
+Note: low scaling efficiency alone does not prove memory-channel saturation; it can also reflect thread overhead, CPU limits, or memory-controller behavior.
+
+Process finished with exit code 0
