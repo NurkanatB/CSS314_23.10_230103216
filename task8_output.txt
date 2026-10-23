@@ -1,0 +1,31 @@
+C:\Users\user\PycharmProjects\PythonProject\.venv\Scripts\python.exe C:\Users\user\PycharmProjects\PythonProject\task8.py 
+Student ID: 230103216
+Operating System: Windows-10-10.0.19045-SP0
+CPU: AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD
+Logical CPU cores: 12
+Matrix size: 1024 x 1024
+Data type: float64
+CPU worker threads: 8
+Each matrix occupies approximately 8 MiB.
+
+Calculating reference result...
+
+=== Matrix Multiplication Benchmark ===
+Method                   |      Runtime | Correct
+------------------------------------------------------
+Non-tiled                |     0.6413 s | PASS
+Tiled 16x16              |     1.1351 s | PASS
+Tiled 64x64              |     0.0644 s | PASS
+
+=== Runtime Comparison ===
+Non-tiled                | 0.6413 s | relative to non-tiled: 1.000x
+Tiled 16x16              | 1.1351 s | relative to non-tiled: 0.565x
+Tiled 64x64              | 0.0644 s | relative to non-tiled: 9.951x
+
+Fastest measured method: Tiled 64x64
+Note: runtime is measured directly. Cache misses are not counted because hardware performance counters are not used.
+Results depend on CPU, NumPy/BLAS implementation, thread scheduling, and system load.
+
+Output saved to task8_output.txt
+
+Process finished with exit code 0
