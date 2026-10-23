@@ -1,0 +1,29 @@
+C:\Users\user\PycharmProjects\PythonProject\.venv\Scripts\python.exe C:\Users\user\PycharmProjects\PythonProject\task4p.py 
+CPU IPC / Shared Memory Transfer Benchmark
+Student ID: 230103216
+Trials per path: 3
+Timing excludes receiver startup and initial shared-memory allocation.
+Path A includes queue serialization and data transfer.
+Path B measures descriptor IPC; array data is shared without copying.
+
+Benchmarking N=100,000 ...
+N = 100,000
+Path A (Queue / Pickle): 3.315 ms
+Path B (Shared Memory): 0.432 ms
+Path A / Path B ratio: 7.67x
+
+Benchmarking N=1,000,000 ...
+N = 1,000,000
+Path A (Queue / Pickle): 19.262 ms
+Path B (Shared Memory): 0.467 ms
+Path A / Path B ratio: 41.23x
+
+Benchmarking N=10,000,000 ...
+N = 10,000,000
+Path A (Queue / Pickle): 196.901 ms
+Path B (Shared Memory): 0.517 ms
+Path A / Path B ratio: 380.78x
+
+Results saved to task4p_output.txt
+
+Process finished with exit code 0
