@@ -1,0 +1,24 @@
+Student ID: 230103216
+Operating System: Windows-10-10.0.19045-SP0
+Logical CPU cores: 12
+Threads: 4
+Increments per thread: 2,000,000
+
+=== UNSYNCHRONIZED COUNTER ===
+Expected final value: 8,000,000
+Actual final value:   8,000,000
+Lost updates:         0
+Updates lost (%):     0.0000%
+Wall-clock time:      0.5176 seconds
+
+=== SYNCHRONIZED COUNTER (LOCK) ===
+Expected final value: 8,000,000
+Actual final value:   8,000,000
+All updates preserved: True
+Wall-clock time:       1.6622 seconds
+
+=== SYNCHRONIZATION COST ===
+Time penalty: 1.1447 seconds
+Time penalty (%): 221.17%
+
+Note: CPython's GIL may prevent this test from showing lost updates consistently. Results depend on Python version and runtime scheduling.
