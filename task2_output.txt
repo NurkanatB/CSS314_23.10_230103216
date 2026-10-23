@@ -1,0 +1,24 @@
+C:\Users\user\PycharmProjects\PythonProject\.venv\Scripts\python.exe C:\Users\user\PycharmProjects\PythonProject\task2.py 
+Student ID: 230103216
+Operating System: Windows-10-10.0.19045-SP0
+CPU Model: AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD
+Logical CPU Cores: 12
+Array Size: 20,000,000
+Data Type: float64
+Execution: Multiprocessing
+
+Running benchmarks...
+
+Cores | Wall Time (s) | Speedup | Amdahl Upper Bound
+--------------------------------------------------------------
+    1 |        0.3689 |    1.00x |               1.00x
+    2 |        0.3311 |    1.11x |               1.90x
+    4 |        0.3778 |    0.98x |               3.48x
+   12 |        0.7368 |    0.50x |               7.74x
+   24 |        1.5339 |    0.24x |              11.16x
+
+P = 0.95
+Baseline sum: 10001056.444537569
+All sums match baseline: True
+
+Process finished with exit code 0
