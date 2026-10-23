@@ -1,0 +1,20 @@
+C:\Users\user\PycharmProjects\PythonProject\.venv\Scripts\python.exe C:\Users\user\PycharmProjects\PythonProject\task3p.py 
+Student ID: 230103216
+Array size: 2,000,000
+Threads: 4
+Running serial prefix scan...
+Running parallel chunked prefix scan...
+
+Student ID: 230103216
+Array size: 2000000
+Threads: 4
+Serial Time (ms): 764.14
+Parallel Time (ms): 22.72
+Speedup: 33.6368x
+Verification Status: PASS
+Serial final prefix sum: 10997648
+Parallel final prefix sum: 10997648
+
+Results saved to task3p_output.txt
+
+Process finished with exit code 0
