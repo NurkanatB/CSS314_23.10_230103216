@@ -1,0 +1,11 @@
+(.venv) PS C:\Users\user\PycharmProjects\PythonProject> python task1.py
+Student ID: 230103216
+Operating System: Windows-10-10.0.19045-SP0
+CPU Model: AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD
+Logical CPU Cores: 12
+Array Size: 20000000
+Data Type: float64
+Sum: 10001056.444537742
+Mean: 0.5000528222268871
+Population Standard Deviation: 0.2886697083252664
+Execution Time (ms): 9211.53
